@@ -16,6 +16,8 @@
 
 ### Retrieving Beans of a Given Type with a Specific Generics Type
 
+![image](https://github.com/user-attachments/assets/ace8a6f2-1d14-41e2-86b2-3e4e4510741d)
+
 ```
 String[] beanNames = context.getBeanNamesForType(ResolvableType.forClassWithGenerics(Processor.class, CharlieRequest.class));
 ```
@@ -32,6 +34,8 @@ beanNames = [charlieGenericProcessor, charlieProcessor]
 
 
 ## 3.4.x Behavior 
+
+![image](https://github.com/user-attachments/assets/26c2daee-3bfd-4d1b-9a85-60347415b5c8)
 
 ```
 beanNames = [charlieGenericProcessor, charlieProcessor, charlieSubGenericProcessor]
