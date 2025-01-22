@@ -39,6 +39,8 @@ dependencies {
 	testRuntimeOnly 'org.junit.platform:junit-platform-launcher'	
 }
 
+ext['spring-framework.version'] = '6.2.2'
+
 tasks.named('test') {
 	useJUnitPlatform()
 }

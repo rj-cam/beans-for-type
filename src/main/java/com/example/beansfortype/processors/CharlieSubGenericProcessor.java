@@ -8,7 +8,7 @@ import com.example.beansfortype.Processor;
 import com.example.beansfortype.data.CharlieSubRequest;
 
 @Component
-@Order(Ordered.LOWEST_PRECEDENCE)
+@Order(Ordered.HIGHEST_PRECEDENCE)
 public class CharlieSubGenericProcessor<REQ extends CharlieSubRequest> implements Processor<REQ> {
 
 	@Override
