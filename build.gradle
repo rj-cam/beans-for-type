@@ -1,7 +1,7 @@
 plugins {
 	id 'java'
-//	id 'org.springframework.boot' version '3.3.7' // works on 3.3.7
-    id 'org.springframework.boot' version '3.4.1' // fails on 3.4.0 and 3.4.1
+	id 'org.springframework.boot' version '3.3.7' // works on 3.3.7
+//    id 'org.springframework.boot' version '3.4.1' // fails on 3.4.0 and 3.4.1
 	id 'io.spring.dependency-management' version '1.1.7'
 	id 'eclipse'
 	id 'io.freefair.lombok' version '8.11'
@@ -39,7 +39,7 @@ dependencies {
 	testRuntimeOnly 'org.junit.platform:junit-platform-launcher'	
 }
 
-ext['spring-framework.version'] = '6.2.2'
+//ext['spring-framework.version'] = '6.2.2'
 
 tasks.named('test') {
 	useJUnitPlatform()
